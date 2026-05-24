@@ -92,14 +92,15 @@ body {
 @media screen and (orientation: portrait) {
     body {
         transform: rotate(90deg);
-        transform-origin: top left;
+        transform-origin: center center;
         width: 100vh !important;
         height: 100vw !important;
         position: absolute;
-        top: 0;
-        left: 100vw;
+        top: calc(50vh - 50vw);
+        left: calc(50vw - 50vh);
         overflow: hidden;
     }
+}
 		</style>
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
